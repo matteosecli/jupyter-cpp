@@ -1,0 +1,3 @@
+libopenblas-dev
+libarpack++2-dev
+libsuperlu-dev
