@@ -1,3 +1,4 @@
 libopenblas-dev
 libarpack++2-dev
 libsuperlu-dev
+libhdf5-dev
