@@ -3,10 +3,12 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - jupyter_server=1.24.0
-  - xeus-cling<=0.13.0
-  - gcc_linux-*64<=9.4.0
-  - libstdcxx-devel_linux-64=*=*19
-  - armadillo=14.0.2
-  - hdf5>=1.12,<1.13
-  - jupyterlab-h5web<8
+  - gcc_linux-*64=9.4.0
+  - xeus-cling
+  - armadillo
+  - openblas
+  - arpack
+  - superlu
+  - hdf5
+  - jupyterlab-h5web
+  - notebook=7.*
