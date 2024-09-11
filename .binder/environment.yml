@@ -7,5 +7,6 @@ dependencies:
   - xeus-cling
   - armadillo
   - hdf5
+  - jq
   - jupyterlab-h5web
   - notebook=7.*

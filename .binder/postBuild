@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+for kernelFile in "${NB_PYTHON_PREFIX}/share/jupyter/kernels/xcpp1"{1,4,7}"/kernel.json"; do
+    jq '.env={"LD_LIBRARY_PATH": "/srv/conda/envs/notebook/lib"}' "${kernelFile}"  > "${kernelFile}.new" 
+    mv "${kernelFile}.new" "${kernelFile}"
+done
